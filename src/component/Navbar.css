@@ -1,0 +1,32 @@
+/* Resetting default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #333; /* dark grey background */
+  }
+  
+  nav ul {
+    list-style-type: none; /* removing bullet points from list */
+    overflow: hidden; /* hide overflowing content */
+  }
+  
+  nav ul li {
+    float: left; /* float list items horizontally */
+  }
+  
+  nav ul li a {
+    display: block; /* making anchor tags block elements */
+    color: white; /* white text color */
+    text-align: center; /* center-align text */
+    padding: 14px 16px; /* padding inside each link */
+    text-decoration: none; /* remove underline */
+  }
+  
+  nav ul li a:hover {
+    background-color: #111; /* dark background color on hover */
+  }
+  
